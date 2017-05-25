@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"manifest_version": 2,
 	"description": "This extension allows you to control (fast forward, rewind, go to a specific time, set playback rate) Youtube or any other HTML5 videos.",
-	"homepage_url": "http://extensionizr.com",
+	"homepage_url": "https://github.com/angelachieh/youtube-controls",
 	"icons": {
 		"16": "img/icon_16.png",
 		"48": "img/icon_48.png",

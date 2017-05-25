@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Control</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            width: 300px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .title {
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        label, input, select, .input-group-addon, .btn {
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="title">Control your Youtube video</div>
+
+        <form class="form-horizontal">
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <label class="control-label">Rewind by</label>
+                </div>
+                <div class="col-xs-9">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="param_rewind" value="10">
+                        <div class="input-group-addon">seconds</div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info" id="rewind">Go</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <label class="control-label">Fast forward by</label>
+                </div>
+                <div class="col-xs-9">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="param_forward" value="10">
+                        <div class="input-group-addon">seconds</div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info" id="forward">Go</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <label class="control-label">Go to</label>
+                </div>
+                <div class="col-xs-9">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="param_go" value="50">
+                        <div class="input-group-addon">seconds</div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info" id="go">Go</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <label class="control-label">Set speed to</label>
+                </div>
+                <div class="col-xs-9">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <select class="form-control" id="param_setrate">
+                                <option>0.25</option>
+                                <option>0.5</option>
+                                <option selected>1</option>
+                                <option>1.5</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info" id="setrate">Set</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

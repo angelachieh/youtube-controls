@@ -1,6 +1,6 @@
 {
 	"name": "Youtube Controls",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"manifest_version": 2,
 	"description": "This extension provides additional controls to Youtube, Vimeo, Dailymotion, or any other HTML5 videos.",
 	"homepage_url": "https://github.com/angelachieh/youtube-controls",

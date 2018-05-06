@@ -1,6 +1,6 @@
-# Youtube Controls
+# HTML5 Video Controller
 
-Youtube Controls is a Chrome extension that allows to control any HTML5 video, including Youtube, Vimeo, and Dailymotion videos.
+HTML5 Video Controller is a Chrome extension that allows to control any HTML5 video, including Youtube, Vimeo, and Dailymotion videos.
 
 The extension allows you to easily:
 * Rewind the video by a specific amount of time
